@@ -73,6 +73,7 @@ The above bash programme outputs the below:
 ### How to run the application
 1. Clone or download this repository in your local computer.
 2. In the root folder, just run ```node index.js```
+   
    This will run the following code which will read the text file at once, and display the result.
    ```
    readFile('files/mobydick.txt', (results) => console.log(results));
