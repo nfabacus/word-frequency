@@ -73,15 +73,14 @@ The above bash programme outputs the below:
 ### How to run the application
 1. Clone or download this repository in your local computer.
 2. In the root folder, just run ```node index.js```
-
-This will run the code which will read the text file at once, and display the result.
-```
-readFile('files/mobydick.txt', (results) => console.log(results));
-```
-If you run the below code instead, it will read test file line by line, then when all the lines are read, it will run the code to display the result.
-```
-readFileByLines('files/mobydick.txt', (results) => console.log(results));
-```
+   This will run the following code which will read the text file at once, and display the result.
+   ```
+   readFile('files/mobydick.txt', (results) => console.log(results));
+   ```
+   If you run the below code instead, it will read test file line by line, then when all the lines are read, it will run the code to display the result.
+   ```
+   readFileByLines('files/mobydick.txt', (results) => console.log(results));
+   ```
 
 ### How to run tests
 In the root folder, run ```node textToWordCounts/tests.js```
