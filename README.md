@@ -71,7 +71,8 @@ The above bash programme outputs the below:
 - No external library was used.
 
 ### How to run the application
-In the root folder, just run ```node index.js```
+1. Clone or download this repository in your local computer.
+2. In the root folder, just run ```node index.js```
 
 This will run the code which will read the text file at once, and display the result.
 ```
